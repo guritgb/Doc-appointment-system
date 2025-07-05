@@ -8,11 +8,11 @@ const mongo = process.env.MONGO_URI;
 
 const connectDB = async () => {
   try {
-    console.log("Connecting to MongoDB with URI:", mongo);
+    //console.log("Connecting to MongoDB with URI:", mongo);
 
     await mongoose.connect(mongo); // simplified
 
-    console.log(`Mongodb connected: ${mongoose.connection.host}`.bgGreen.white);
+   // console.log(`Mongodb connected: ${mongoose.connection.host}`.bgGreen.white);
   } catch (error) {
     console.log(`Mongodb Server Issue ${error}`.bgRed.white);
   }
