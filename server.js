@@ -7,8 +7,8 @@ const path = require("path");
 
 //dotenv config
 const result = dotenv.config();
-console.log("Dotenv result:", result);
-console.log("Parsed MONGO_URI:", process.env.MONGO_URI);
+//console.log("Dotenv result:", result);
+//console.log("Parsed MONGO_URI:", process.env.MONGO_URI);
 
 const app = express();
 //mongodb connect
@@ -36,5 +36,5 @@ const port = process.env.PORT || 8080;
 const node = process.env.NODE_MODE || "";
 //listen port
 app.listen(port, () => {
-  console.log(`Server Running in ${node} Mode on port ${port}`.bgCyan.white);
+ // console.log(`Server Running in ${node} Mode on port ${port}`.bgCyan.white);
 });
