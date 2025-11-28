@@ -1,5 +1,7 @@
 # Doc Appointment System
 
+<!-- final commit -->
+
 Doc Appointment System is a MERN-stack application that lets patients browse doctors, schedule appointments, and manage upcoming visits through a responsive web interface.
 
 Here is the live demo: https://doc-appointment-system-wanc.onrender.com
